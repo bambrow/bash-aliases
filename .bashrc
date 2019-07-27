@@ -41,6 +41,10 @@ alias ..5='cd ../../../../..'
 # find commands
 alias findf='find . -type f'
 alias findd='find . -type d'
+alias findn='find . -name'
+alias find/f='find / -type f'
+alias find/d='find / -type d'
+alias find/n='find / -name'
 
 # mkdir commands
 alias mkdirp='mkdir -p'
@@ -77,6 +81,21 @@ alias h40='history -40'
 alias h50='history -50'
 alias hg='history | grep'
 
+# head and tail commands
+alias head5='head -5'
+alias head20='head -20'
+alias tail5='tail -5'
+alias tail20='tail -20'
+
+# du commands
+alias duh='du -h'
+alias duc='du -c'
+alias duch='du -hc'
+alias duhc='du -hc'
+alias dus='du -s'
+alias dush='du -hs'
+alias duhs='du -hs'
+
 # brew commands
 alias bu='brew update'
 alias bl='brew list'
@@ -103,7 +122,19 @@ alias vdt='vagrant destroy'
 
 # miscellaneous
 alias c='clear'
+alias cpr='cp -r'
+alias n='nano'
+alias now='date "+%T %Z %A %x"'
+alias p='python'
+alias p2='python2'
+alias p3='python3'
+alias s='scala'
+alias scpr='scp -r'
 alias showpath='echo -e ${PATH//:/\\n}'
+alias t='touch'
+alias v='vim'
+alias wh='which'
+alias year='cal -y'
 
 # modify .bashrc and .bash_profile
 alias nanobr='sudo nano ~/.bashrc'
