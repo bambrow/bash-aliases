@@ -42,9 +42,9 @@ alias ..5='cd ../../../../..'
 alias findf='find . -type f'
 alias findd='find . -type d'
 alias findn='find . -name'
-alias find/f='find / -type f'
-alias find/d='find / -type d'
-alias find/n='find / -name'
+alias findrf='find / -type f'
+alias findrd='find / -type d'
+alias findrn='find / -name'
 
 # mkdir commands
 alias mkdirp='mkdir -p'
